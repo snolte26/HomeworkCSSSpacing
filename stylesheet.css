@@ -1,0 +1,93 @@
+.parent1{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.redBlock1{
+	
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	margin-top: 95px;
+}
+
+.blueBlock1{
+	
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+.yellowBlock1{
+	
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+}
+
+/* `````````````````````````````````````` */
+
+.parent2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+
+.redBlock2{
+	z-index: 1;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.blueBlock2{
+	margin-left: 150px;
+	margin-top: -50px;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+.yellowBlock2{
+	margin-top: 50px;
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+}
+
+/* `````````````````````````````````````` */
+
+.parent3{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+
+.redBlock3{
+	margin-top: -105px;
+	margin-left: 340px;
+	z-index: 1;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.blueBlock3{
+	margin-left: 200px;
+	margin-top: 200px;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+.yellowBlock3{
+	margin-left: 300px;
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+}
