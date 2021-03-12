@@ -91,3 +91,72 @@
 	height: 150px;
 	width: 150px;
 }
+
+/* `````````````````````````````````````` */
+
+.parent4{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.redBlock4{
+	margin-top: 565px;
+	z-index: 1;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.blueBlock4{
+	z-index: 2;
+	margin-left: -50px;
+	margin-top: 505px;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+.yellowBlock4{
+	margin-right: -60px;
+	margin-top: 500px;
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+}
+
+/* `````````````````````````````````````` */
+
+.parent5{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	
+}
+
+.redBlock5{
+	margin-top: -100px;
+	z-index: 1;
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	
+}
+
+.blueBlock5{
+	z-index: 2;
+	margin-left: 225px;
+	margin-top: 0;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+.yellowBlock5{
+	margin-left: 225px;
+	margin-top: -80px;
+	background-color: yellow;
+	height: 150px;
+	width: 150px;
+}
